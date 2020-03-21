@@ -11,4 +11,6 @@
     * Escalando o deployment
     * Atualizando o deployment
     * Rollout 
+- Services
+
 
