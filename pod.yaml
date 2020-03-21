@@ -2,11 +2,11 @@ apiVersion: v1
 kind: Pod
 metadata:
   labels:
-    app: pod-1
-  name: pod-1
+    app: hello-world
+  name: hello-world
 spec:
   containers:
-    - name: pod-1
+    - name: hello-world
       image: ark3/hello-world
       ports:
         - containerPort: 8000
