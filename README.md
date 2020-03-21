@@ -9,4 +9,6 @@
     * Primeiro deployment
     * Acessando recursos usando labels
     * Escalando o deployment
+    * Atualizando o deployment
+    * Rollout 
 
