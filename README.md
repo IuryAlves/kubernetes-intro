@@ -16,5 +16,6 @@
 - Nodes
     * Aplicando labels em nodes
     * Escolhendo um node especifico para o pod
+- Namespaces
 
 
