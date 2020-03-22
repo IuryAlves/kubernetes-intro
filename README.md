@@ -12,5 +12,9 @@
     * Atualizando o deployment
     * Rollout 
 - Services
+    * Tipos de services
+- Nodes
+    * Aplicando labels em nodes
+    * Escolhendo um node especifico para o pod
 
 

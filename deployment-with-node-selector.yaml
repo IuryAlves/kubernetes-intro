@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-world-deployment-with-node-selector
+  labels:
+    app: hello-world-deployment-with-node-selector
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello-world
+  template:
+    metadata:
+      labels:
+        app: hello-world
+    spec:
+      containers:
+        - name: hello-world
+          image: ark3/hello-world
+          ports:
+            - containerPort: 8000
+      nodeSelector:
+        type: cpu
